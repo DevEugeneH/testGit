@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+.container {
+	width: 100%;
+	height: auto;
+	background-color: #f1f1f1;
+}
+.container .inner-container{
+	width: 100%;
+	height: auto;
+}
+.container .inner-container .memberListView{
+	width: 100%;
+	height: auto;
+}
+.container .inner-container .memberListView .sections{
+	width: 100%;
+	height: auto;
+	display:flex;
+	justify-content: center;
+}
+.container .inner-container .memberListView .sections .section.sec1{
+	flex : 0 1 1200px;
+}
+.container .inner-container .memberListView .sections .section.sec1 .sec-con{
+	padding: 50px 100px;
+	background-color: #f1f1f1;
+}
+.container .inner-container .memberListView .sections .section.sec1 .sec-con table{
+	width: 100%;
+	padding: 50px 30px;
+}
+table, tr, td{
+	border: 0px solid;
+}
+td{
+	border : 1px solid #555555;
+	border-collapse: collapse;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.container .inner-container .memberListView .sections .section.sec1 .sec-con h1{
+	line-height: 50px;
+	padding: 20px 0;
+	text-align: center;
+	background-color: #a5bef1;
+	color:#ffffff;
+}
+.container .inner-container .memberListView .sections .section.sec1 .sec-con table{
+	background-color : #ceb4e3;
+}
+.container .inner-container .memberListView .sections .section.sec1 .sec-con table thead th{
+	padding: 10px 0;
+	background-color: #f4ebfb;
+}
+.container .inner-container .memberListView .sections .section.sec1 .sec-con table tbody tr td{
+	padding: 10px;
+	box-sizing: border-box;
+	line-height: 20px;
+	text-align: center;
+}
+
+.container .inner-container .memberListView .sections .section.sec1 .sec-con table tbody tr .t1 a{
+	color : #ffffff;
+	font-weight: bold;
+} 
+
+

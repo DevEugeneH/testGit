@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+.container {
+	width: 100%;
+	height: auto;
+	background-color: #f1f1f1;
+}
+.container .inner-container{
+	width: 100%;
+	height: auto;
+}
+.container .inner-container .join{
+	width: 100%;
+	height: auto;
+}
+.container .inner-container .join .sections{
+	width: 100%;
+	height: auto;
+	display:flex;
+	justify-content: center;
+}
+.container .inner-container .join .sections .section.sec1{
+	flex : 0 1 800px;
+}
+.container .inner-container .join .sections .section.sec1 .sec-con{
+	padding: 50px 100px;
+	background-color: #ffffff;
+}
+.container .inner-container .join .sections .section.sec1 .sec-con table{
+	width: 100%;
+	padding: 50px 30px;
+}
+table, tr, td{
+	border: 0px solid;
+}
+td{
+	border : 1px solid #555555;
+	border-collapse: collapse;
+	padding: 5px;
+	box-sizing: border-box;
+}
+th{
+	border: 0 !important;
+}
+.container .inner-container .join .sections .section.sec1 .sec-con table th h1{
+	line-height: 50px;
+	padding: 20px 0;
+	text-align: center;
+}
+.container .inner-container .join .sections .section.sec1 .sec-con table tbody tr td{
+	padding: 10px;
+	box-sizing: border-box;
+	line-height: 20px;
+	background-color: #f1f1f1;
+	border: 1px solid;
+}
+.container .inner-container .join .sections .section.sec1 .sec-con table tbody tr td:nth-of-child(1) {
+	text-align: center;
+	font-weight: bold;
+}
+.container .inner-container .join .sections .section.sec1 .sec-con table tr td label{
+	/* display:block;
+	width: 100%;
+	text-align: center;*/
+ 
+ }
+.container .inner-container .join .sections .section.sec1 .sec-con table tbody tr td input{
+	line-height: 20px;
+}
+.container .inner-container .join .sections .section.sec1 .sec-con table tfoot td{
+	text-align: center;
+}
+.container .inner-container .join .sections .section.sec1 .sec-con table tfoot td input[type=button]{
+	padding: 5px 40px;
+}
